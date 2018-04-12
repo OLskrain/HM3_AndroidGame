@@ -10,12 +10,13 @@ public class TowerDefenseGame extends ApplicationAdapter {
 	SpriteBatch batch;
 	Map map;
 	Monster monster;
-	
+
+
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
 		map = new Map();
-		monster = new Monster(map, 0, 1240, 360);
+		monster = new Monster(map, 0, 1240, 280);
 	}
 
 	@Override
